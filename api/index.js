@@ -10,7 +10,7 @@ app.get("/api/users", (req, res) => {
     res.json([
         {
             id: 1,
-            name: "Shayan",
+            name: "Shayana",
             role: "Frontend Developer",
         },
         {
