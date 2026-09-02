@@ -18,6 +18,16 @@ app.get("/api/users", (req, res) => {
             name: "Ali",
             role: "Backend Developer",
         },
+        {
+            id: 3,
+            name: "nimra",
+            role: "Dataanalyst",
+        },
+        {
+            id: 4,
+            name: "Usama",
+            role: "Dataanalyst",
+        },
     ]);
 });
 
