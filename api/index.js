@@ -31,8 +31,8 @@ app.get("/api/users", (req, res) => {
     ]);
 });
 
-app.get("/shayan", (req, res) => {
-    res.send("API is working! loru");
+app.get("/", (req, res) => {
+    res.send("API is working!");
 });
 
 module.exports = app;
